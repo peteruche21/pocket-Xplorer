@@ -2,8 +2,6 @@ import '/backend/schema/structs/index.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'switch_network_model.dart';
@@ -123,8 +121,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered1!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered1? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -199,8 +196,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered2!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered2? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -275,8 +271,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered3!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered3? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -351,8 +346,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered4!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered4? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -427,8 +421,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered5!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered5? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -503,8 +496,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered6!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered6? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -579,8 +571,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered7!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered7? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(
@@ -655,8 +646,7 @@ class _SwitchNetworkWidgetState extends State<SwitchNetworkWidget> {
                             curve: Curves.easeInOut,
                             width: double.infinity,
                             decoration: BoxDecoration(
-                              color: _model.networkHovered8!
-                                  ? FlutterFlowTheme.of(context).primary
+                              color: _model.networkHovered8? FlutterFlowTheme.of(context).primary
                                   : FlutterFlowTheme.of(context).secondary,
                             ),
                             child: Padding(

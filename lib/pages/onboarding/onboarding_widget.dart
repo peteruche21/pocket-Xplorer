@@ -5,15 +5,12 @@ import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:collection/collection.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'onboarding_model.dart';
@@ -273,7 +270,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget>
 
                                   setState(() {
                                     FFAppState().xploreAddress =
-                                        _model.qrAddress!;
+                                        _model.qrAddress;
                                   });
 
                                   setState(() {});
@@ -299,16 +296,14 @@ class _OnboardingWidgetState extends State<OnboardingWidget>
                           padding: EdgeInsetsDirectional.fromSTEB(
                               16.0, 12.0, 16.0, 16.0),
                           child: FFButtonWidget(
-                            onPressed: (FFAppState().xploreAddress == null ||
-                                        FFAppState().xploreAddress == '') ||
+                            onPressed: (FFAppState().xploreAddress == '') ||
                                     !((String addr) {
                                       return addr.startsWith("0x") &&
                                           addr.length == 42;
                                     }(FFAppState().xploreAddress))
                                 ? null
                                 : () async {
-                                    if (currentUserUid != null &&
-                                        currentUserUid != '') {
+                                    if (currentUserUid != '') {
                                       setState(() {
                                         FFAppState().userId = currentUserUid;
                                       });

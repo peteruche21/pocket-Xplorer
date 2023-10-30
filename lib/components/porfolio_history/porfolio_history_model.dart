@@ -1,13 +1,6 @@
-import '/backend/schema/structs/index.dart';
-import '/flutter_flow/flutter_flow_charts.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'porfolio_history_widget.dart' show PorfolioHistoryWidget;
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 
 class PorfolioHistoryModel extends FlutterFlowModel<PorfolioHistoryWidget> {
   /// Initialization and disposal methods.

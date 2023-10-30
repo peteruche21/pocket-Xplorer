@@ -1,18 +1,11 @@
 import '/backend/api_requests/api_calls.dart';
-import '/empty_widget/empty_list/empty_list_widget.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/custom_functions.dart' as functions;
 import '/flutter_flow/request_manager.dart';
 
 import 'dart:async';
 import 'history_list_widget.dart' show HistoryListWidget;
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:provider/provider.dart';
 
 class HistoryListModel extends FlutterFlowModel<HistoryListWidget> {
   ///  State fields for stateful widgets in this component.

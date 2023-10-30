@@ -2,8 +2,6 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'collectible_model.dart';
@@ -143,7 +141,6 @@ class _CollectibleWidgetState extends State<CollectibleWidget> {
                         child: AutoSizeText(
                           (String address, String? name) {
                             return name is String &&
-                                    name != null &&
                                     name != "null"
                                 ? name
                                 : '${address.substring(0, 2 + 6)}...${address.substring(42 - 6)}';
@@ -198,7 +195,6 @@ class _CollectibleWidgetState extends State<CollectibleWidget> {
                         child: Text(
                           (String? desc) {
                             return desc is String &&
-                                    desc != null &&
                                     desc != "null"
                                 ? desc
                                 : "";

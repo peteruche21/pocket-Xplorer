@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:typed_data';
 
 import '/flutter_flow/flutter_flow_util.dart';
 import 'api_manager.dart';
@@ -375,16 +374,16 @@ class RegisterWebHookCall {
   "additional_headers": [
     {
       "name": "user-id",
-      "value": "${userId}"
+      "value": "$userId"
     }
   ],
-  "webhook_name": "${webhookName}",
+  "webhook_name": "$webhookName",
   "webhook_url": "https://sendnotification-e26hvuklwa-uc.a.run.app",
-  "data_source": "${topic}",
+  "data_source": "$topic",
   "filters": [
     {
       "values": [
-        "${xploreAddress}"
+        "$xploreAddress"
       ],
       "field": "walletAddress"
     }
@@ -415,7 +414,7 @@ class DeleteWebHookCall {
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'Delete WebHook',
-      apiUrl: '${ChainBaseGroup.baseUrl}/webhooks/${webhookId}',
+      apiUrl: '${ChainBaseGroup.baseUrl}/webhooks/$webhookId',
       callType: ApiCallType.DELETE,
       headers: {
         'accept': 'application/json',
@@ -441,7 +440,7 @@ class GetHistoricalPortfolioRecordCall {
     return ApiManager.instance.makeApiCall(
       callName: 'Get Historical Portfolio Record',
       apiUrl:
-          'https://api.covalenthq.com/v1/${network}/address/${address}/portfolio_v2/',
+          'https://api.covalenthq.com/v1/$network/address/$address/portfolio_v2/',
       callType: ApiCallType.GET,
       headers: {
         'Content-Type': 'application/json',
