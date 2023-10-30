@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745818222697",
+    "project_id": "chainbase-pocketxplorer",
+    "storage_bucket": "chainbase-pocketxplorer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745818222697:android:c9e9a44b7fbc47f16b32f8",
+        "android_client_info": {
+          "package_name": "com.chainbasehack.pocketxplorer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgTyr12SvmOAN_rKxAM12q1rQsQFJ7NgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
